@@ -1,0 +1,67 @@
+ul, ul li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica,"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+	color: #333;
+	min-width: 1200px;
+	overflow-x: auto;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+select {
+	outline: none;
+	background: none;
+}
+a {
+	text-decoration: none;
+}
+.clear:before,.clear:after {
+	content:'';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
+}
+.text-right {
+	text-align: right;
+}
+.color-primary {
+	color: #5CD1FF;
+}
+.color-white {
+	color: #fff;
+}
+.color-black {
+	color: #333;
+}
+.color-gray {
+	color: #eee;
+}
+.bg-primary {
+	background-color: #5CD1FF;
+}
