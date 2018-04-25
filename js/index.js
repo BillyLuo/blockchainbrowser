@@ -67,7 +67,7 @@ function initEarth () {
 	    canvas.height = 400;
 	    context = canvas.getContext('2d');
 	    context.scale(2, 2);
-	  }esle {
+	  }else {
 	  		context = canvas.getContext('2d');
 	    context.scale(2, 2);
 	  }
