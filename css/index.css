@@ -51,8 +51,8 @@
 }
 .earth {
 	display: block;
-	width: 410px;
-	height: 410px;
+	width: 410px !important;
+	height: 410px !important;
 	margin: 0 auto;
 	opacity: 0.85;
 }
