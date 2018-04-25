@@ -68,8 +68,8 @@ function initEarth () {
 	    context = canvas.getContext('2d');
 	    context.scale(2, 2);
 	  }else {
-	  		canvas.width = 800;
-	  		canvas.height = 800;
+	  		canvas.width = 400;
+	  		canvas.height = 400;
 	  }
 	  // Draw that globe!
 	  globe.draw(canvas);
